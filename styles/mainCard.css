@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,700);
+.main-card-top {
+  position: relative;
+  border-radius: 20px;
+  background: #5847eb;
+  padding: 40px;
+  width: 230px;
+  height: 350px;
+}
+
+.main-card-bottom {
+  border-radius: 20px;
+  background: #1c1f4a;
+  padding: 40px;
+  width: 230px;
+  height: 150px;
+  margin-top: -50px;
+}
+
+.main-card-bottom .time-selection-container {
+  margin-top: 10px;
+  height: 150px;
+  position: relative;
+}
+
+.main-card-bottom .time-selection-container .time-selection {
+  position: absolute;
+  bottom: 0;
+}
+
+.time-option {
+  color: #6f76c8;
+  font-weight: 400;
+  margin: 15px 5px;
+}
+
+.time-option .active {
+  color: white;
+}
+
+.time-option.active {
+  color: white;
+}
+
+.profile-image {
+  width: 100px;
+  border: 4px solid white;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+/*# sourceMappingURL=mainCard.css.map */

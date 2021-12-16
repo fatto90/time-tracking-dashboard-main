@@ -1,0 +1,29 @@
+@import "constants";
+@import "mainCard";
+@import "card";
+
+body {
+    background-color: $verydarkblue;
+    font-family: $fontfamily;
+    font-weight: $fontWeightBold;
+    font-size: $titleFontSize;
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+
+.content {
+    display:inline-flex;
+}
+
+.subtitle {
+    @include faded-title;
+}
+
+.title-container {
+    margin-top: 5px;
+    & span {
+        font-weight: $fontWeightNormal;
+        font-size: $profileNameFontSize;
+    }
+}
